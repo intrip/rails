@@ -1,5 +1,9 @@
+*   Add `:all` option to `inclusion` validator.
+
+    *Jacopo Beschi*
+
 *   Fix `to_json` for `ActiveModel::Dirty` object.
-    
+
     Exclude +mutations_from_database+ attribute from json as it lead to recursion.
 
     *Anil Maurya*
